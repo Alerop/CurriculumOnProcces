@@ -1,0 +1,138 @@
+html{
+	background-image: url(../img/fondoflipante_done.png);
+	background-size: cover;
+}
+body{
+	margin: 60px !important;
+	font-family: 'Cute' !important;
+	font-size: 1.04rem !important;
+}
+
+@font-face {
+    font-family: 'Lobster';
+    src: url('../letras/Lobster/Lobster-Regular.ttf');
+}
+@font-face{
+	font-family: 'Cute';
+	src: url('../letras/Cute_Font/CuteFont-Regular.ttf');
+}
+.letrita{
+	font-family: 'Lobster', cursive;
+	color: #B75A70;
+}
+#tContenedora{
+	display: inline-flex;
+	width: 100%;
+	height: 100%;		
+}
+div #contIzq{
+	background-color: #754590;
+	/*#94519D*/
+	/*width: 30%;
+	display: inline-block;*/
+}
+div #contDer{
+	/*display: inline-block;
+	width: 70%;
+	display: table-row;*/
+	background-color: #fff;
+}
+.contenedorDerecha{
+	text-align: center;
+}
+.contenedorIzquierda{
+	background-color: #556272;
+	width: 30%;
+	height: 100%;
+}
+.objetivo{
+	background-image: url(../img/modeloCV.jpg);
+	background-size: cover;
+	width: 150px;
+	height: 150px;
+	position: fixed;
+	top: 30px;
+	right: 30px;
+}
+.coca{
+	border: 2px solid black;
+	width: 80px;
+	height: 40px;
+	background-color: red;
+	font-style: italic;
+	margin: auto;
+	display: inline-block;
+	position: relative;
+	z-index: 0;
+}
+.coca:nth-child(2){
+	right: 20px;
+	top: 15px;
+	z-index: 2 !important;
+}
+.coca:nth-child(3){
+	right: 40px;
+}
+.coca nav{
+	text-align: center;
+}
+/*
+#marcoPerfil{
+	position: absolute;
+	background-image: url(../img/fondoflipante_done.png);
+	background-size: cover;
+	width: 256px;
+	height: 256px;
+	display: inline-block;
+	top: 95px;
+	left: 200px;
+}
+
+*/
+#marcoPerfil{
+	margin: auto;
+ 	display: block;
+ 	width: 200px;
+    height: 200px;
+    top: 31%;
+    left: 22%;
+ 	overflow: hidden;
+ 	border: 4px solid black;
+ 	border-radius: 28px;
+ 	transform: rotate(45deg);
+ 	-ms-transform: rotate(45deg); /* IE 9 */
+ 	-webkit-transform: rotate(45deg); /* Safari and Chrome */
+ 	position: absolute;
+ 
+ 	/* non-essential styling */
+ 	-webkit-box-shadow: 0px 0px 3px 3px rgba(0, 0, 0, .05);
+ 	box-shadow: 0px 0px 3px 3px rgba(0, 0, 0, .05);
+}
+#marcoPerfil img {
+	position: relative;
+	left:-33px;
+	transform: rotate(-45deg);
+ 	-ms-transform: rotate(-45deg); /* IE 9 */
+ 	-webkit-transform: rotate(-45deg); /* Safari and Chrome */
+}
+
+.be{
+	border: 2px solid black;
+	width: 80px;
+	height: 40px;
+	background-color: blue;
+	font-style: italic;
+	margin: auto;
+	display: inline-block;
+	position: relative;
+	z-index: 0;
+}
+.nopadding [class*="col-"] {
+    padding: 0;
+}
+
+.sipadding {    
+    padding-left: 15px;
+    padding-right: 15px;
+
+}

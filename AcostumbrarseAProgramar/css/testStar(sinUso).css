@@ -1,0 +1,13 @@
+/*.clasificacion{*/
+      /*direction: rtl;*//* right to left */
+      /*unicode-bidi: bidi-override;*//* bidi de bidireccional */
+  /*}*/
+
+/*label i:hover,
+label:hover ~ label i{
+  color: orange;
+}
+
+input[type="radio"]:checked ~ label i{
+  color: orange;
+}*/
